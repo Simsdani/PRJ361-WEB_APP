@@ -1,12 +1,11 @@
-import SignIn from './SignIn'; 
+// src/App.js
 import React from 'react';
 import Login from './components/Login';
 
 function App() {
   return (
-    <div>
-  <Login />
-   {/* <SignIn/> */}
+    <div className="App">
+      <Login />
     </div>
   );
 }

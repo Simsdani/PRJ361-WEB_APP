@@ -1,0 +1,59 @@
+/* src/components/Login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3683f0; /* Blue background */
+}
+
+.login-box {
+  background-color: transparent;
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+  width: 320px;
+}
+
+.login-box h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0f254f; /* Dark input */
+  color: white;
+  font-size: 16px;
+}
+
+.login-box input::placeholder {
+  color: #ccc;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 14px;
+  background-color: #0f254f; /* Dark blue button */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-text {
+  margin-top: 10px;
+  color: white;
+}
+
+.signup-text span {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
